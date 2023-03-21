@@ -1,5 +1,12 @@
-<script></script>
+<script>
+</script>
 
-<main></main>
+<main class="container-main"></main>
 
-<style></style>
+<style>
+	.container-main {
+		background-image: url('https://i.postimg.cc/KjTXQ5xw/Rectangle-13.png');
+		background-size: cover;
+    height: 100vh;
+	}
+</style>
