@@ -1,4 +1,8 @@
-<nav class="navbar">
+<script lang="ts">
+	let navbar: HTMLElement;
+</script>
+
+<nav class="navbar" bind:this={navbar}>
 	<div class="container-title">
 		<h2 class="title">Felt</h2>
 	</div>
@@ -24,6 +28,7 @@
 		justify-content: space-between;
 		align-items: center;
 		height: 70px;
+		margin-bottom: 3rem;
 	}
 
 	.container-title {
