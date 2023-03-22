@@ -1,10 +1,12 @@
 <script>
 	import About from '../components/About.svelte';
+	import GalleryUs from '../components/GalleryUs.svelte';
 </script>
 
 <div class="container-image" />
 <main class="container-main">
 	<About />
+	<GalleryUs />
 </main>
 
 <style>
@@ -14,6 +16,6 @@
 		height: 100vh;
 	}
 	.container-main {
-		background-color: #EFF2F6;
+		background-color: #eff2f6;
 	}
 </style>
