@@ -1,12 +1,14 @@
 <script>
 	import About from '../components/About.svelte';
 	import GalleryUs from '../components/GalleryUs.svelte';
+	import Form from '../components/Form.svelte'
 </script>
 
 <div class="container-image" />
 <main class="container-main">
 	<About />
 	<GalleryUs />
+	<Form/>
 </main>
 
 <style>
