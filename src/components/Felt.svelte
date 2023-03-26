@@ -7,5 +7,7 @@
 <style>
   h2 {
     margin: 0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
   }
 </style>

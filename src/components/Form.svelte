@@ -3,19 +3,21 @@
 	import Gallery from './Gallery.svelte';
 </script>
 
-<div class="container-form">
+<section class="container-form" id="form">
 	<div class="title-form">
 		<Felt title="Contact Us" />
 	</div>
 	<div class="container-content">
 		<div class="container-form--active">
+      <h2>Drop us a Message </h2>
 			<form action="" class="form">
 				<label for="name-user"> Name </label>
-				<input class="input-name" type="text" id="name-user" />
+				<input class="input-name" type="text" id="name-user" placeholder="name"/>
 				<label for="email-user"> Email </label>
-				<input class="email-user" type="email" id="email-user" />
+				<input class="email-user" type="email" id="email-user" placeholder="email"/>
 				<label for="description-user"> Message </label>
-				<textarea class="text-area" id="description-user" cols="30" rows="15" />
+				<textarea class="text-area" id="description-user" cols="30" rows="15" placeholder="Description" />
+        <button type="submit">Submit</button>
 			</form>
 		</div>
 		<div class="container-image-form">
@@ -23,7 +25,7 @@
 			<Gallery image="https://i.postimg.cc/CKxmxHgg/Rectangle-17.png" title="image" />
 		</div>
 	</div>
-</div>
+</section>
 
 <style>
 	.container-form {
@@ -44,6 +46,9 @@
 		flex-direction: column;
 		
 	}
+  h2 {
+    font-size: 2rem
+  }
   input, textarea {
     background-color: #BAC4C4;
     outline: none;
@@ -57,5 +62,15 @@
   label {
     font-weight: bold;
     font-size: 1.5rem;
+  }
+  button {
+    width: 200px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+		font-weight: bold;
   }
 </style>

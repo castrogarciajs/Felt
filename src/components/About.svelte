@@ -4,7 +4,7 @@
 	import Gallery from './Gallery.svelte';
 </script>
 
-<div class="container-about">
+<section class="container-about" id="about">
 	<div class="container-title">
 		<Felt title="About Us" />
 	</div>
@@ -33,7 +33,7 @@
 			</figure>
     </div>
 	</div>
-</div>
+</section>
 
 <style>
 	.container-about {

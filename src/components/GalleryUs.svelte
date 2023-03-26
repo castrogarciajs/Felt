@@ -3,7 +3,7 @@
 	import Felt from './Felt.svelte';
 </script>
 
-<div class="container-gallery">
+<section class="container-gallery" id="gallery">
 	<div class="title-gallery">
 		<Felt title="Gallery" />
 	</div>
@@ -20,7 +20,7 @@
 
 		<Gallery image="https://i.postimg.cc/4N5BFF2T/Rectangle-7.png" title="image" />
 	</div>
-</div>
+</section>
 
 <style>
 	.container-gallery {
