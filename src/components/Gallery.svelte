@@ -3,5 +3,9 @@
 	export let title: string;
 </script>
 
-<img src={image} alt={title} />
+<img class="image" src={image} alt={title} />
 
+
+<style>
+	
+</style>
